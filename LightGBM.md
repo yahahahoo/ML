@@ -9,7 +9,7 @@ LightGBM在Higgs数据集上LightGBM比XGBoost快将近10倍，内存占用率�
 
 LightGBM提出的主要原因就是为了解决GBDT在海量数据遇到的问题，让GBDT可以更好更快地用于工业实践。
 
-### 1.1 LightGBM在哪些地方进行了优化    (区别XGBoost)？
+### 1.1 LightGBM在哪些地方进行了优化(区别XGBoost)？
 
 - 基于Histogram的决策树算法
 - 带深度限制的Leaf-wise的叶子生长策略
